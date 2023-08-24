@@ -1,0 +1,64 @@
+{
+    "products":[
+    {
+        "id": 1,
+        "nombre": "Bananas",
+        "precio": 19.99,
+        "imagen": "img/bananas.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Duraznos",
+        "precio": 29.99,
+        "imagen": "img/Duraznos.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Frutillas",
+        "precio": 39.99,
+        "imagen": "img/frutillas.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Higos",
+        "precio": 19.99,
+        "imagen": "img/higos.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Kiwis",
+        "precio": 25.99,
+        "imagen": "img/kiwis.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Mandarinas",
+        "precio": 15.99,
+        "imagen": "img/mandarinas.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Mangos",
+        "precio": 29.99,
+        "imagen": "img/mangos.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Manzanas Rojas",
+        "precio": 24.99,
+        "imagen": "img/manzanasr.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Manzanas Verdes",
+        "precio": 50.99,
+        "imagen": "img/manzanasv.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Naranjas",
+        "precio": 33.99,
+        "imagen": "img/naranjas.jpg"
+    }
+]
+}
