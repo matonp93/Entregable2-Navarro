@@ -10,11 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 })
-
 btnDeslogear.addEventListener("click", () => {
         localStorage.clear();
-        location.href = "login.html"
+        location.href ="login.html"
     });
+
 
 //  Funcioón Fetch a los productos del archivo JSON
 
@@ -105,7 +105,7 @@ function mostrarPopUp() {
         popupLista.appendChild(listItem);
     });
 
-    popupTotalElemento.textContent = totalCarrito;
+    popupTotalElemento.textContent = "$ " + totalCarrito;
     popup.style.display = 'flex';
 }
 

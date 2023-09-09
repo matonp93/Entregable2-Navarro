@@ -1,44 +1,35 @@
- :root {
-  --primary:#fd7e14;
-  --secondary:rgba(255, 166, 0, 0.208);
-  --blue:#0d6efd;
-  --indigo: #6610f2;
-  --red:red;
-  --dark:black;
-  --light:white;
-  --tyrian-purple: #5f0f40ff;
-  --spanish-orange: #e36414ff;
-  --midnight-green: #0f4c5cff;
-  --murrey: #830040ff;
-  --cerulean: #307c94ff;
-}
 body{
   font-family: 'poppins', 'Times New Roman', Times, serif;
-  background-color: rgb(188, 210, 82);
-
+  color: #fff400;
+  background-color: #007BFF;
 }
 
 /* Estilo Navbar */
 
+.justify-content-end{
+  background-color:  #beb9b986!important;
+}
 .navbar {
-  background-color: rgb(188, 210, 82)!important;
+  background-color: #777777!important;
 }
 .nav-link{
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 600;
-  color: #830040ff !important;
+  color:  #043e7e !important;
+  border-color:  #FFA500;
 }
 
 
 /*ESTILOS DEL CONTENEDOR*/
 #products {
+  max-width: 10;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   padding: 10px 0px 0 10px;
 }
 .productcard {
-  background-color: rgba(255, 166, 0, 0.514);
+  background-color:rgba(119, 119, 119, 0.712);
   display: grid;
   margin: 20px;
   text-align: left;
@@ -78,7 +69,7 @@ font-size: 220%;
 
 /*ESTILOS DEL precio*/
 .precio{
-  color: #830040ff;
+  color: #ff7700;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.345) 1px solid black;
   font-size: 185%;
   font-weight: bold;
@@ -87,16 +78,12 @@ font-size: 220%;
 
 /*ESTILOS DEL encabezado*/
 .encabezado{
-  display: grid;
-  grid-template-columns: 2fr 0.25fr;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 0 0 100px;
+  padding: 15px 0 0 30px;
  
 }
 .encabezado h1{
-  color: #830040ff;
-  -webkit-text-stroke: 1px #830040ff 1px solid black; 
+  color:#ff7700;
+  -webkit-text-stroke: 1px #ff7700 1px solid black; 
   text-shadow: 0.5px 0px 10px grey;
   font-size: 350%;
   font-weight: 600;
@@ -136,7 +123,7 @@ font-size: 150%;
 }
 
 .popup-contenido {
-  background-color: white;
+  background-color: rgb(0, 21, 255);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -151,7 +138,34 @@ font-size: 150%;
   border-radius: 5px;
   cursor: pointer;
 }
-
+.btn-danger {
+  color: #007BFF;
+  background-color: #FFA500;
+  border-color: #FFA500;
+}
 .popup button:hover {
   background-color: #0056b3;
+}
+
+
+
+/* Estilos generales para pantallas de escritorio */
+/* Utiliza las clases de Bootstrap para diseñar tu sitio para pantallas de escritorio */
+
+/* Media query para dispositivos móviles (Bootstrap utiliza 576px como punto de corte para móviles) */
+@media (max-width: 576px) {
+  /* Personaliza estilos específicos para dispositivos móviles aquí */
+  /* Por ejemplo, puedes ajustar el tamaño del texto o los márgenes para una mejor experiencia en dispositivos móviles */
+}
+
+/* Media query para tablets (Bootstrap utiliza 768px como punto de corte para tablets) */
+@media (min-width: 577px) and (max-width: 991px) {
+  /* Personaliza estilos específicos para tablets aquí */
+  /* Puedes ajustar el diseño de las columnas o los márgenes para una mejor experiencia en tablets */
+}
+
+/* Media query para pantallas más grandes (Bootstrap utiliza 992px como punto de corte para pantallas más grandes) */
+@media (min-width: 992px) {
+  /* Personaliza estilos específicos para pantallas más grandes aquí */
+  /* Puedes ajustar el diseño de las columnas o los márgenes para una mejor experiencia en pantallas grandes */
 }
